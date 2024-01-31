@@ -1,9 +1,10 @@
-.square{
-    /* width: calc(100% / 10 - 10px); */
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+body{
+    background: #083b4c;
 }
+.grid{
+    max-width: 60%;
+    margin: auto;
+}
+
+
 
