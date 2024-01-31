@@ -6,12 +6,13 @@ for (let i = 1; i <= 100; i++){
     newElement.innerHTML= i;
     newElement.className ="square";
     newElement.style.backgroundColor="#1389b2";
-    newElement.style.border=" 1px solid black";
-    newElement.style.  width= "calc(100% / 10 - 10px)";
+    newElement.style.padding="0 16px"
+    
+    newElement.style.  width="70px";
     newElement.style.display="flex";
     newElement.style.justifyContent="center";
     newElement.style.alignItems="center";
-    newElement.style.height= "80px";
+    newElement.style.height= "70px";
     newElement.style.fontSize="20px";
 
     grigliaElement.append(newElement)
